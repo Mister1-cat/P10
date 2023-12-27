@@ -31,9 +31,9 @@
 Светодиодная панель представляет из себя белую матрицу 32x16 точек с размерами 320x160мм.
 
 
-![P10.jpg](Additional%20files%2FP10.jpg)![LEDP10_RED.png]
+![P10.jpg](Additional%20files%2FP10.jpg)
 
-Это основные характеристики данной рабочей матрицы. Дальше рассмотрим **обратную сторону панели***:
+Обратная сторона матрицы:
 
 ![Position of components.jpg](Additional%20files%2FPosition%20of%20components.jpg)
 
@@ -66,6 +66,12 @@
 - **MOSI** - канал передачи данных
 - **SCLK** - канал подтверждения конца загрузки байта данных.
 
+Ниже приведены подключение светодиодной панели и джойстика к STM32F429ZIT6
+
+![4.jpg](https://github.com/Mister1-cat/P10/blob/main/Additional%20files/4.jpg)
+
+![5.jpg](https://github.com/Mister1-cat/P10/blob/main/Additional%20files/5.jpg)
+
 ******************
 ## Настрйока микроконтроллера и SPI
 
@@ -75,7 +81,7 @@
 
 Ниже можно наблюдать настройки SPI
 
-![Setings_SPI5.png](Additional%20files%2FSetings_SPI5.png)
+![Setings_SPI5.png](https://github.com/Mister1-cat/P10/blob/main/Additional%20files/Setings_SPI5.jpg)
 
 *******************
  ## Последовательность для загрузки данных в матрицу ###
@@ -97,6 +103,12 @@
 
 *******************
  ## Демонстрация работы панели ###
-![Setings_SPI5.png](Additional%20files%2FSetings_SPI5.png)
+ 
+Ниже представлена демонстрация работы панели
+На первом рисунке предствлен отрисованный объект и точка, на втором рисунке точка и выделенное поле, и на третьем процесс перемещения объекта со световой индикацией.
+
+![1.png](https://github.com/Mister1-cat/P10/blob/main/Additional%20files/1.jpg)
+![2.png](https://github.com/Mister1-cat/P10/blob/main/Additional%20files/2.jpg)
+![3.png](https://github.com/Mister1-cat/P10/blob/main/Additional%20files/3.jpg)
 
 
